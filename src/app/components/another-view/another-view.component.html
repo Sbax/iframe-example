@@ -1,0 +1,8 @@
+<main>
+  <header>
+    Your Angular App
+    <span *ngIf="url">showing {{ url.replace("echo", "") }}</span>
+  </header>
+
+  <app-iframe [url]="url"></app-iframe>
+</main>

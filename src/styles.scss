@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+
+body,
+html {
+  margin: 0;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+header {
+  background: black;
+  padding: 1em;
+  font-size: 2em;
+  color: white;
+}
